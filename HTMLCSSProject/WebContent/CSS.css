@@ -1,0 +1,150 @@
+/*==Reset CSS==*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*==Style co ban cho website==*/
+body {
+	font-family: sans-serif;
+	color: #333;
+}
+
+#container{
+	width: 100%;
+}
+/*style top menu*/
+#menu-top {
+	z-index: 100; background : #1F568B;
+	list-style-type: none;
+	text-align: center;
+	float: right;
+	
+	right: 0px;
+	width: 100%;
+	font-color: white;
+	background: #1F568B;
+}
+
+#menu-top ul {
+	background: #1F568B;
+	list-style-type: none;
+	text-align: center;
+}
+
+#menu-top li {
+	color: '#f1f1f1';
+	display: inline-block;
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	margin-left: -5px;
+}
+
+.sub-menu li {
+	display: none;
+	z-index: 100;
+	background: #1F568B;
+}
+
+#menu-top li {
+	position: relative;
+}
+
+#menu-top .sub-menu {
+	position: absolute;
+	display: none;
+		
+}
+
+#menu-top li:hover .sub-menu {
+	display: block;
+}
+
+#menu-top a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+
+#menu-top a:hover {
+	background: #F1F1F1;
+	color: #333;
+}
+
+/* Style left menu */
+#menu-left {
+	background: #8AD385;
+	width: 15%;
+	height: 650px;
+	padding: 0;
+	float: left;
+}
+
+#menu-left ul {
+	background: #8AD385;
+	width: 100%;
+	padding: 0;
+	list-style-type: none;
+	text-align: left;
+}
+
+#menu-left li {
+	width: auto;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #e8e8e8;
+	padding: 0 1em;
+	
+}
+
+#menu-left li a {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	display: block;
+}
+
+#menu-left li:hover {
+	background: #CDE2CD;
+}
+
+/*   Tao baclground cho logo      */
+
+#right{
+	float: right;
+	width: 85%;	
+}
+#font-logo {
+	background: gray;
+	width: 100%;
+	border: 10px;
+	border-image: url(.../img/border.png) 30 round;
+	
+	/*padding: 10px;*/
+}
+
+#image {
+	width: 400px;
+	height: 120px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#content{
+	width:100%
+}
+#row{
+	width:30%;
+	float:right;
+	margin-left:3%;
+	margin-top:60px;
+}
+#img{
+	width:30%;
+	height:100px;
+	float:left;
+}
+#row p::first-line{
+	color:orange;
+}

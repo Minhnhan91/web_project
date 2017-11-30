@@ -1,0 +1,24 @@
+{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: sans-serif;
+	color: #333;
+}
+#dangky{
+	width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(img/border.png) 30 round;
+}
+#right{
+	float:right;
+}
+#imageupdate img{
+	float:right;
+}
+

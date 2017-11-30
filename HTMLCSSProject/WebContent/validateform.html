@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link style="text/css" rel="stylesheet" href="vadidateform.css"></link>
+<title>Insert title here</title>
+</head>
+<body>
+	<div id="dangky">
+		<form action="#" name="myForm" method="post" onsubmit="return !!(f1()& checkPhone())">
+		<fieldset><legend>Form dang ky hoc</legend>
+			<div id="left">
+				<div id="right">
+					<input id="choosefile" onchange="chooseFile()" type="file" name="chon tep"/><br>
+					<img id="imageupdate" src="#" width ="120px" height="120px" alt="update image..."/>
+				</div> 
+				<h4>First name</h4>				
+				<input style="width: 250px;height:20px;" type="text" name="fname"  placeholder="First Name" >
+				<h4>Last name</h4>
+				<input style="width: 250px;height:20px" type="text" name="fName"  placeholder="Last Name">
+				<h4>Phone number</h4>
+				(<input style="width: 80px;height:20px"type="number" name="area" placeholder="">)
+				<input style="width: 80px;height:20px"type="number" name="pre" placeholder="">-
+				<input style="width: 80px;height:20px"type="number" name="last" placeholder=""><br>
+				<input type="radio" name="gender" value="male"> Male<br>
+		  		<input type="radio" name="gender" value="female"> Female<br>
+				<textarea rows="6" cols="40" placeholder="Desscreption..."></textarea><br>
+				<input type="radio" name="bike" value="bybike"> By Bike<br>
+		  		<input type="radio" name="bike" value="bycar"> By Car<br>
+		  		<select style="width:100%">
+  					<option value="volvo">Meter</option>
+  					<option value="saab">Saab</option>
+  					<option value="mercedes">Mercedes</option>
+  					<option value="audi">Audi</option>
+				</select><br>
+	  			<button style="width: 100px;height:40px;border: 2px solid gray; border-radius:5px;margin-top:10px;"type="submit">Submit!</button>
+	  		</div>
+	  		</fieldset>
+		</form>
+	</div>
+</body>
+<script type="text/javascript"  src="Index.js"></script>
+</html>

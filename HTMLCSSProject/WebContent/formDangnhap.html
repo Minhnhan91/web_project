@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link style="text/css" rel="stylesheet" href="setcookie.css"></link>
+<title>Insert title here</title>
+</head>
+<body onload ="readCookie();">
+	<form id="dangnhap"name="cookieForm" onsubmit="javascrip:return setCookie();"action="#" method="post">
+	<h2>LOGIN FORM</h2>
+		UserID:<input type="text" name="username" placeholder="Nhap username"><br>
+		Password:<input type="password" name="password" placeholder="Nhap password"><br>
+		<input type="checkbox" name="persist"> Remember UserID<br>
+		<input style="background: green;width:100px;height:40px;"type="submit" value="Submit">
+	</form> 	
+</body>
+<script type="text/javascript"  src="setCookie.js"></script>
+</html>
